@@ -13,6 +13,9 @@
 		C1F047D62CD9C87100B97FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F047D42CD9C87100B97FB8 /* Main.storyboard */; };
 		C1F047D82CD9C87300B97FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F047D72CD9C87300B97FB8 /* Assets.xcassets */; };
 		C1F047DB2CD9C87300B97FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F047D92CD9C87300B97FB8 /* LaunchScreen.storyboard */; };
+		C1F047E32CDA53C400B97FB8 /* OneTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F047E22CDA53C400B97FB8 /* OneTapViewController.swift */; };
+		C1F047E52CDA5C4A00B97FB8 /* TwoTapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F047E42CDA5C4A00B97FB8 /* TwoTapsViewController.swift */; };
+		C1F047E72CDA644900B97FB8 /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F047E62CDA644900B97FB8 /* DragViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C1F047D72CD9C87300B97FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F047DA2CD9C87300B97FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F047DC2CD9C87400B97FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F047E22CDA53C400B97FB8 /* OneTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTapViewController.swift; sourceTree = "<group>"; };
+		C1F047E42CDA5C4A00B97FB8 /* TwoTapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTapsViewController.swift; sourceTree = "<group>"; };
+		C1F047E62CDA644900B97FB8 /* DragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				C1F047D72CD9C87300B97FB8 /* Assets.xcassets */,
 				C1F047D92CD9C87300B97FB8 /* LaunchScreen.storyboard */,
 				C1F047DC2CD9C87400B97FB8 /* Info.plist */,
+				C1F047E22CDA53C400B97FB8 /* OneTapViewController.swift */,
+				C1F047E42CDA5C4A00B97FB8 /* TwoTapsViewController.swift */,
+				C1F047E62CDA644900B97FB8 /* DragViewController.swift */,
 			);
 			path = TappingTesting;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F047E52CDA5C4A00B97FB8 /* TwoTapsViewController.swift in Sources */,
 				C1F047D32CD9C87100B97FB8 /* ViewController.swift in Sources */,
 				C1F047CF2CD9C87100B97FB8 /* AppDelegate.swift in Sources */,
 				C1F047D12CD9C87100B97FB8 /* SceneDelegate.swift in Sources */,
+				C1F047E72CDA644900B97FB8 /* DragViewController.swift in Sources */,
+				C1F047E32CDA53C400B97FB8 /* OneTapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
